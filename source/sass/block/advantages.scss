@@ -1,0 +1,12 @@
+ol li {
+  counter-increment: number;
+}
+
+ol li::after {
+  content: counter(number) "-№ - ";
+}
+
+ol {
+  list-style: none;
+  counter-reset: number;
+}

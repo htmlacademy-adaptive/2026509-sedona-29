@@ -45,9 +45,9 @@
       <h2 class="visually-hidden">Баннер Седона</h2>
       <img class="hero__image" width="229" height="39" src="img/hero-sedona.svg" alt="Баннер Седоны.">
     </section>
-    <section class="review">
-      <h2 class="review__title">Оставьте свой отзыв</h2>
-      <p class="review__desc">Помогите нашим отелям стать лучше! Оставьте отзыв о них, <br>а также о посещенных вами
+    <section class="intro">
+      <h2 class="intro__title">Оставьте свой отзыв</h2>
+      <p class="intro__desc">Помогите нашим отелям стать лучше! Оставьте отзыв о них, <br>а также о посещенных вами
         достопримечательностях</p>
     </section>
     <section class="feedback-form">
@@ -58,15 +58,15 @@
             <h2 class="form__title">Представьтесь:</h2>
             <div class="form__field">
               <label class="form__label" for="name">Имя*:</label>
-              <input class="form__input" id="name" name="name" placeholder="Петр" required>
+              <input class="form__input" type="text" id="name" name="name" placeholder="Петр" required>
             </div>
             <div class="form__field">
               <label class="form__label" for="secname">Фамилия*:</label>
-              <input class="form__input" id="secname" name="secname" placeholder="Пустота" required>
+              <input class="form__input" type="text" id="secname" name="secname" placeholder="Пустота" required>
             </div>
             <div class="form__field">
               <label class="form__label" for="surname">Отчество:</label>
-              <input class="form__input" id="surname" name="surname" placeholder="Викторович" required>
+              <input class="form__input" type="text" id="surname" name="surname" placeholder="Викторович" required>
             </div>
           </fieldset>
           <div class="form__wrapper">
@@ -74,11 +74,11 @@
               <h2 class="form__title">Контактная информация:</h2>
               <div class="form__field">
                 <label class="form__label" for="phone">Контактный телефон*:</label>
-                <input class="form__input" id="phone" name="phone" placeholder="Введите телефон" required>
+                <input class="form__input" type="tel" id="phone" name="phone" placeholder="Введите телефон" required>
               </div>
               <div class="form__field">
                 <label class="form__label" for="email">Электронная почта*:</label>
-                <input class="form__input" id="email" name="email" placeholder="Введите e-mail" required>
+                <input class="form__input" type="email" id="email" name="email" placeholder="Введите e-mail" required>
               </div>
             </fieldset>
           </div>
