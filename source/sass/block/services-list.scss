@@ -1,0 +1,54 @@
+.services-list {
+  @include list;
+}
+
+.services-list__item {
+  text-align: start;
+  display: flex;
+  gap: 7px;
+  padding: 8px 15px 25px 15px;
+  box-sizing: border-box;
+
+  &:not(:last-child) {
+    padding-bottom: 27px;
+  }
+
+  &--house {
+    &::before {
+      content: "";
+      background-image: url("/img/services-list-house.svg");
+      width: 40px;
+      height: 40px;
+      background-repeat: no-repeat;
+      background-position: center;
+      flex-shrink: 0;
+
+    }
+  }
+
+  &--food {
+    &::before {
+      content: "";
+      background-image: url("/img/services-list-burger.svg");
+      width: 40px;
+      height: 40px;
+      background-repeat: no-repeat;
+      background-position: center;
+      flex-shrink: 0;
+
+    }
+  }
+
+  &--souvenir {
+    &::before {
+      content: "";
+      background-image: url("/img/services-list-gift.svg");
+      width: 40px;
+      height: 40px;
+      background-repeat: no-repeat;
+      background-position: center;
+      flex-shrink: 0;
+
+    }
+  }
+}
