@@ -1,6 +1,24 @@
 .social__list {
   @include list;
-  width: 156px;
   display: flex;
-  justify-content: space-between;
+  align-items: center;
+  justify-content: center;
+  flex-wrap: wrap;
+  gap: 6px;
+
+}
+
+.social__link {
+  display: block;
+  background-color: $color-secondary;
+  padding: 12px;
+
+  &:hover {
+    background-color: #669ec0;
+    transition: 0.3s;
+  }
+
+  &:active {
+    background-color: #5496bd;
+  }
 }

@@ -24,7 +24,6 @@
 
 .advantages__item  {
   text-align: center;
-
 }
 
 .advantages__wrapper {
@@ -42,4 +41,23 @@
     background-color: $color-secondary;
     color: #ffffff;
   }
+  &--gray {
+    background-color: #eeeeee;
+  }
+}
+
+.advantages__item:nth-child(4)::after {
+  content: "";
+  display: block;
+  width: 100%;
+  height: 1px;
+  background-color: #D6D6D6
+}
+
+.advantages__item:nth-child(5)::after {
+  content: "";
+  display: block;
+  width: 100%;
+  height: 1px;
+  background-color: #D6D6D6
 }
